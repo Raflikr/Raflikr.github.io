@@ -58,7 +58,7 @@
 }
 
 .flip-box-front {
-  background-color: #bbb;
+  background-color: #e1e1e1;
   color: black;
 }
 
@@ -75,6 +75,28 @@
 .gambar-hover:hover {
   transform: scale(1.2); /* Memperbesar gambar saat dihover */
 }
+
+.responsive-text {
+  font-size: 16px; /* Ukuran teks awal */
+}
+
+@media (max-width: 992px) {
+  .responsive-text {
+    font-size: 12px; /* Ukuran teks saat lebar layar ≤ 992px */
+  }
+}
+
+@media (max-width: 576px) {
+  .responsive-text {
+    font-size: 9px; /* Ukuran teks saat lebar layar ≤ 576px */
+  }
+}
+
+.btn.btn-primary {
+  background-color: #68a8c1;
+  color: #ffffff;
+}
+
 
 :root {
   --bs-blue: #0d6efd;
